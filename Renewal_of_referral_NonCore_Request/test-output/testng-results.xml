@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="67852" started-at="2016-12-28T09:50:13Z" finished-at="2016-12-28T09:51:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="67852" started-at="2016-12-28T09:50:13Z" finished-at="2016-12-28T09:51:21Z">
+      <class name="nonCoreRequest.Testcase.RenewalOfrequest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:nonCoreRequest.Testcase.RenewalOfrequest@5c5a1b69]" name="setup" is-config="true" duration-ms="27354" started-at="2016-12-28T15:20:13Z" finished-at="2016-12-28T15:20:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="RIPC_Login_Renewal()[pri:0, instance:nonCoreRequest.Testcase.RenewalOfrequest@5c5a1b69]" name="RIPC_Login_Renewal" duration-ms="30997" started-at="2016-12-28T15:20:41Z" finished-at="2016-12-28T15:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RIPC_Login_Renewal -->
+        <test-method status="PASS" signature="Organization()[pri:1, instance:nonCoreRequest.Testcase.RenewalOfrequest@5c5a1b69]" name="Organization" duration-ms="3167" started-at="2016-12-28T15:21:12Z" finished-at="2016-12-28T15:21:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Organization -->
+        <test-method status="PASS" signature="Request_detail()[pri:2, instance:nonCoreRequest.Testcase.RenewalOfrequest@5c5a1b69]" name="Request_detail" duration-ms="6302" started-at="2016-12-28T15:21:15Z" finished-at="2016-12-28T15:21:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Request_detail -->
+      </class> <!-- nonCoreRequest.Testcase.RenewalOfrequest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

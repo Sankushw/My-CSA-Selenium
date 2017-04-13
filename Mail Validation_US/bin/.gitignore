@@ -1,0 +1,13 @@
+/.classpath
+/.project
+/Log/
+/jars/
+/lib/
+/log4j.properties
+/mail_Validation_testcase/
+/step1_CreateRequest/
+/step2_check_Request_green_side/
+/step3_RIPCStatus/
+/step4_check_Request_green_side/
+/test-output/
+/testdata/

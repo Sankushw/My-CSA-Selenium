@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="60750" started-at="2016-12-27T11:50:17Z" finished-at="2016-12-27T11:51:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="60750" started-at="2016-12-27T11:50:17Z" finished-at="2016-12-27T11:51:18Z">
+      <class name="renewalOfReferral_Core.Testcase.RenewalOfrequest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:renewalOfReferral_Core.Testcase.RenewalOfrequest@5c5a1b69]" name="setup" is-config="true" duration-ms="27069" started-at="2016-12-27T17:20:17Z" finished-at="2016-12-27T17:20:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="RIPC_Login_Renewal()[pri:0, instance:renewalOfReferral_Core.Testcase.RenewalOfrequest@5c5a1b69]" name="RIPC_Login_Renewal" duration-ms="22948" started-at="2016-12-27T17:20:44Z" finished-at="2016-12-27T17:21:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RIPC_Login_Renewal -->
+        <test-method status="PASS" signature="Organization()[pri:1, instance:renewalOfReferral_Core.Testcase.RenewalOfrequest@5c5a1b69]" name="Organization" duration-ms="3993" started-at="2016-12-27T17:21:07Z" finished-at="2016-12-27T17:21:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Organization -->
+        <test-method status="PASS" signature="Request_detail()[pri:2, instance:renewalOfReferral_Core.Testcase.RenewalOfrequest@5c5a1b69]" name="Request_detail" duration-ms="6724" started-at="2016-12-27T17:21:11Z" finished-at="2016-12-27T17:21:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Request_detail -->
+      </class> <!-- renewalOfReferral_Core.Testcase.RenewalOfrequest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

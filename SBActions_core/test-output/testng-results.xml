@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="162943" started-at="2017-04-04T09:03:05Z" finished-at="2017-04-04T09:05:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="162943" started-at="2017-04-04T09:03:05Z" finished-at="2017-04-04T09:05:48Z">
+      <class name="sBActions_GB_main.CreateRequest_GB">
+        <test-method status="PASS" signature="setup()[pri:0, instance:sBActions_GB_main.CreateRequest_GB@2b552920]" name="setup" is-config="true" duration-ms="29011" started-at="2017-04-04T14:33:05Z" finished-at="2017-04-04T14:33:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="RIPC_Login()[pri:0, instance:sBActions_GB_main.CreateRequest_GB@2b552920]" name="RIPC_Login" duration-ms="11019" started-at="2017-04-04T14:33:34Z" finished-at="2017-04-04T14:33:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RIPC_Login -->
+        <test-method status="PASS" signature="Create_Req()[pri:1, instance:sBActions_GB_main.CreateRequest_GB@2b552920]" name="Create_Req" duration-ms="4362" started-at="2017-04-04T14:33:45Z" finished-at="2017-04-04T14:33:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Req -->
+        <test-method status="PASS" signature="skill_Req()[pri:2, instance:sBActions_GB_main.CreateRequest_GB@2b552920]" name="skill_Req" duration-ms="2027" started-at="2017-04-04T14:33:49Z" finished-at="2017-04-04T14:33:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skill_Req -->
+        <test-method status="PASS" signature="select_Req()[pri:3, instance:sBActions_GB_main.CreateRequest_GB@2b552920]" name="select_Req" duration-ms="10565" started-at="2017-04-04T14:33:51Z" finished-at="2017-04-04T14:34:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_Req -->
+        <test-method status="PASS" signature="select_jrss()[pri:4, instance:sBActions_GB_main.CreateRequest_GB@2b552920]" name="select_jrss" duration-ms="38050" started-at="2017-04-04T14:34:02Z" finished-at="2017-04-04T14:34:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_jrss -->
+        <test-method status="PASS" signature="req_detail()[pri:5, instance:sBActions_GB_main.CreateRequest_GB@2b552920]" name="req_detail" duration-ms="14563" started-at="2017-04-04T14:34:40Z" finished-at="2017-04-04T14:34:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- req_detail -->
+        <test-method status="PASS" signature="skill_loc()[pri:6, instance:sBActions_GB_main.CreateRequest_GB@2b552920]" name="skill_loc" duration-ms="12478" started-at="2017-04-04T14:34:54Z" finished-at="2017-04-04T14:35:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skill_loc -->
+        <test-method status="PASS" signature="alert_check()[pri:7, instance:sBActions_GB_main.CreateRequest_GB@2b552920]" name="alert_check" duration-ms="2228" started-at="2017-04-04T14:35:07Z" finished-at="2017-04-04T14:35:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alert_check -->
+        <test-method status="PASS" signature="skill_price()[pri:8, instance:sBActions_GB_main.CreateRequest_GB@2b552920]" name="skill_price" duration-ms="11829" started-at="2017-04-04T14:35:09Z" finished-at="2017-04-04T14:35:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skill_price -->
+        <test-method status="PASS" signature="supp()[pri:9, instance:sBActions_GB_main.CreateRequest_GB@2b552920]" name="supp" duration-ms="26150" started-at="2017-04-04T14:35:21Z" finished-at="2017-04-04T14:35:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- supp -->
+        <test-method status="PASS" signature="req_data()[pri:10, instance:sBActions_GB_main.CreateRequest_GB@2b552920]" name="req_data" duration-ms="619" started-at="2017-04-04T14:35:47Z" finished-at="2017-04-04T14:35:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- req_data -->
+      </class> <!-- sBActions_GB_main.CreateRequest_GB -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
