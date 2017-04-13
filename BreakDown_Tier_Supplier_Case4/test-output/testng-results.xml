@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="80346" started-at="2017-01-31T10:03:10Z" finished-at="2017-01-31T10:04:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="80346" started-at="2017-01-31T10:03:10Z" finished-at="2017-01-31T10:04:30Z">
+      <class name="breakdown_Tier_supplier_Test_Cases.Add_Response1">
+        <test-method status="PASS" signature="setup1()[pri:0, instance:breakdown_Tier_supplier_Test_Cases.Add_Response1@5c5a1b69]" name="setup1" is-config="true" duration-ms="24786" started-at="2017-01-31T15:33:10Z" finished-at="2017-01-31T15:33:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup1 -->
+        <test-method status="PASS" signature="Supp_Login1()[pri:0, instance:breakdown_Tier_supplier_Test_Cases.Add_Response1@5c5a1b69]" name="Supp_Login1" duration-ms="13829" started-at="2017-01-31T15:33:35Z" finished-at="2017-01-31T15:33:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Supp_Login1 -->
+        <test-method status="PASS" signature="AddResp1()[pri:1, instance:breakdown_Tier_supplier_Test_Cases.Add_Response1@5c5a1b69]" name="AddResp1" duration-ms="16911" started-at="2017-01-31T15:33:48Z" finished-at="2017-01-31T15:34:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddResp1 -->
+        <test-method status="PASS" signature="RespPric1()[pri:2, instance:breakdown_Tier_supplier_Test_Cases.Add_Response1@5c5a1b69]" name="RespPric1" duration-ms="6630" started-at="2017-01-31T15:34:05Z" finished-at="2017-01-31T15:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RespPric1 -->
+        <test-method status="PASS" signature="RespSum1()[pri:3, instance:breakdown_Tier_supplier_Test_Cases.Add_Response1@5c5a1b69]" name="RespSum1" duration-ms="18174" started-at="2017-01-31T15:34:12Z" finished-at="2017-01-31T15:34:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RespSum1 -->
+      </class> <!-- breakdown_Tier_supplier_Test_Cases.Add_Response1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
