@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="13" passed="12">
+  <reporter-output>
+    <line>
+      <![CDATA[Technical Service skill request (U22P9Q)]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="86272" started-at="2017-03-22T10:40:53Z" finished-at="2017-03-22T10:42:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="86272" started-at="2017-03-22T10:40:53Z" finished-at="2017-03-22T10:42:20Z">
+      <class name="HoldActivateCancel_testcase.CreateRequest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:HoldActivateCancel_testcase.CreateRequest@2b552920]" name="setup" is-config="true" duration-ms="6720" started-at="2017-03-22T16:10:53Z" finished-at="2017-03-22T16:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="RIPC_Login()[pri:0, instance:HoldActivateCancel_testcase.CreateRequest@2b552920]" name="RIPC_Login" duration-ms="6569" started-at="2017-03-22T16:11:00Z" finished-at="2017-03-22T16:11:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RIPC_Login -->
+        <test-method status="PASS" signature="open_CSA_Tab()[pri:1, instance:HoldActivateCancel_testcase.CreateRequest@2b552920]" name="open_CSA_Tab" duration-ms="1768" started-at="2017-03-22T16:11:07Z" finished-at="2017-03-22T16:11:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_CSA_Tab -->
+        <test-method status="PASS" signature="Skill_Request1()[pri:2, instance:HoldActivateCancel_testcase.CreateRequest@2b552920]" name="Skill_Request1" duration-ms="1628" started-at="2017-03-22T16:11:08Z" finished-at="2017-03-22T16:11:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Skill_Request1 -->
+        <test-method status="PASS" signature="Select_Requester1()[pri:3, instance:HoldActivateCancel_testcase.CreateRequest@2b552920]" name="Select_Requester1" duration-ms="9319" started-at="2017-03-22T16:11:10Z" finished-at="2017-03-22T16:11:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_Requester1 -->
+        <test-method status="PASS" signature="JRSS_Select()[pri:4, instance:HoldActivateCancel_testcase.CreateRequest@2b552920]" name="JRSS_Select" duration-ms="2488" started-at="2017-03-22T16:11:19Z" finished-at="2017-03-22T16:11:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JRSS_Select -->
+        <test-method status="PASS" signature="Req_detail()[pri:5, instance:HoldActivateCancel_testcase.CreateRequest@2b552920]" name="Req_detail" duration-ms="1014" started-at="2017-03-22T16:11:22Z" finished-at="2017-03-22T16:11:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Req_detail -->
+        <test-method status="FAIL" signature="Skill_detailLoc()[pri:6, instance:HoldActivateCancel_testcase.CreateRequest@2b552920]" name="Skill_detailLoc" duration-ms="16608" started-at="2017-03-22T16:11:23Z" finished-at="2017-03-22T16:11:40Z">
+          <exception class="org.openqa.selenium.NoAlertPresentException">
+            <message>
+              <![CDATA[no alert open
+  (Session info: chrome=57.0.2987.110)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 17 milliseconds
+Build info: version: '2.52.0', revision: '4c2593c', time: '2016-02-11 19:03:33'
+System info: host: 'IBM200-PC07QF34', ip: '9.193.11.122', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\IBM_AD~1\AppData\Local\Temp\scoped_dir9180_7843}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 8cd68bc5e211a1e2a7a1a69905ac0367]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoAlertPresentException: no alert open
+  (Session info: chrome=57.0.2987.110)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 17 milliseconds
+Build info: version: '2.52.0', revision: '4c2593c', time: '2016-02-11 19:03:33'
+System info: host: 'IBM200-PC07QF34', ip: '9.193.11.122', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\IBM_AD~1\AppData\Local\Temp\scoped_dir9180_7843}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 8cd68bc5e211a1e2a7a1a69905ac0367
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1049)
+	at step1_CreateRequest.Page07_SkilldetailLocation.Skill_detailLocationpage(Page07_SkilldetailLocation.java:70)
+	at HoldActivateCancel_testcase.CreateRequest.Skill_detailLoc(CreateRequest.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoAlertPresentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Skill_detailLoc -->
+        <test-method status="PASS" signature="Skill_detailsklprc()[pri:7, instance:HoldActivateCancel_testcase.CreateRequest@2b552920]" name="Skill_detailsklprc" duration-ms="12868" started-at="2017-03-22T16:11:40Z" finished-at="2017-03-22T16:11:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Skill_detailsklprc -->
+        <test-method status="PASS" signature="Alerthandling()[pri:8, instance:HoldActivateCancel_testcase.CreateRequest@2b552920]" name="Alerthandling" duration-ms="7" started-at="2017-03-22T16:11:52Z" finished-at="2017-03-22T16:11:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Alerthandling -->
+        <test-method status="PASS" signature="Supp_select()[pri:9, instance:HoldActivateCancel_testcase.CreateRequest@2b552920]" name="Supp_select" duration-ms="14036" started-at="2017-03-22T16:11:52Z" finished-at="2017-03-22T16:12:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Supp_select -->
+        <test-method status="PASS" signature="SkillSummary()[pri:10, instance:HoldActivateCancel_testcase.CreateRequest@2b552920]" name="SkillSummary" duration-ms="5601" started-at="2017-03-22T16:12:06Z" finished-at="2017-03-22T16:12:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SkillSummary -->
+        <test-method status="PASS" signature="ReqSummary()[pri:11, instance:HoldActivateCancel_testcase.CreateRequest@2b552920]" name="ReqSummary" duration-ms="7326" started-at="2017-03-22T16:12:12Z" finished-at="2017-03-22T16:12:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReqSummary -->
+        <test-method status="PASS" signature="submitconfirmed()[pri:12, instance:HoldActivateCancel_testcase.CreateRequest@2b552920]" name="submitconfirmed" duration-ms="233" started-at="2017-03-22T16:12:19Z" finished-at="2017-03-22T16:12:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Technical Service skill request (U22P9Q)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- submitconfirmed -->
+      </class> <!-- HoldActivateCancel_testcase.CreateRequest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

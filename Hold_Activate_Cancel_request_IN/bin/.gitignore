@@ -1,0 +1,12 @@
+/.classpath
+/.project
+/HoldActivateCancel_testcase/
+/Log/
+/jars/
+/lib/
+/log4j.properties
+/step1_CreateRequest/
+/step2_check_Request_green_side/
+/step3_RIPC_actions/
+/test-output/
+/testdata/
