@@ -1,0 +1,13 @@
+/.classpath
+/.project
+/LiteRequest_AU_AP_TestCase/
+/Log/
+/jars/
+/lib/
+/log4j.properties
+/step1_CreateRequest/
+/step2_ENCauthorization/
+/step3_SBAuthorization/
+/step4_bridge_Bond_By_Req/
+/test-output/
+/testdata/

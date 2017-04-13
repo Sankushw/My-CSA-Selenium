@@ -1,0 +1,82 @@
+package LiteRequest_AU_AP_TestCase;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.firefox.internal.ProfilesIni;
+import org.testng.Assert;
+import org.testng.Reporter;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+import org.apache.log4j.Logger;
+
+import lib.Excel;
+import step3_SBAuthorization.Page1_SBauthoriz;
+
+
+
+
+public class SB_Authorization
+{
+	// TestNG logger
+	
+		public static Logger log = Logger.getLogger("TnM");
+		
+		public static String xlsFilePath = System.getProperty("user.dir") + "\\src\\testdata\\testdata.xls";
+		public String sheet="Login"; 
+		public String url;
+		public String id;
+		public String paswd;
+		
+		WebDriver driver;
+		
+		
+		@BeforeTest
+	    public void setup()
+		{
+			System.setProperty("webdriver.chrome.driver","C:\\Chrome driver\\chromedriver_win32\\chromedriver.exe");
+	    	driver = new ChromeDriver();
+	
+    	id = Excel.getCellValue(xlsFilePath, sheet, 2, 0);
+   	  	paswd = Excel.getCellValue(xlsFilePath, sheet, 2, 1);
+    	url = Excel.getCellValue(xlsFilePath, sheet, 2, 2);
+    	
+    	String url1 = "https://" +  id + ":" + paswd + "@" + url;
+        
+        driver.get(url1);    
+	  }	
+		
+		 // test to Login and auth as RIPC
+		 		  
+		  @Test(priority=0)
+		  public void SB_auth() 
+		  {
+			  
+			  Page1_SBauthoriz auth = new Page1_SBauthoriz(driver);
+			  auth.SBAuth();
+		  }
+		  
+		  
+		 /*  @Test(priority=2)
+		  public void SB_return() 
+		  {
+			  
+			  Page2_SBReturn wlcmpage = new Page2_SBReturn(driver);
+			  wlcmpage.SBReturn();
+		  }
+		  
+		  @Test(priority=2)
+		  public void SB_reject() 
+		  {
+			  
+			  Page2_SBReject wlcmpage = new Page2_SBReject(driver);
+			  wlcmpage.SBReject();
+		  }
+		  */
+		  
+		  
+}
+		  
+	

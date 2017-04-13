@@ -1,0 +1,13 @@
+/.classpath
+/.project
+/LiteRequest_CA_NA_TestCase/
+/Log/
+/jars/
+/lib/
+/log4j.properties
+/step1_CreateRequest/
+/step2_ENCauthorization/
+/step3_SBAuthorization/
+/step4_Submit2BondByRequester/
+/test-output/
+/testdata/

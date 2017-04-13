@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+    <line>
+      <![CDATA[T&M-Review skill request (T22VQ8)]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="118283" started-at="2017-03-24T12:24:57Z" finished-at="2017-03-24T12:26:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="118283" started-at="2017-03-24T12:24:57Z" finished-at="2017-03-24T12:26:55Z">
+      <class name="LiteRequest_CA_NA_TestCase.CreateRequest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:LiteRequest_CA_NA_TestCase.CreateRequest@2b552920]" name="setup" is-config="true" duration-ms="28082" started-at="2017-03-24T17:54:57Z" finished-at="2017-03-24T17:55:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="RIPC_Login()[pri:0, instance:LiteRequest_CA_NA_TestCase.CreateRequest@2b552920]" name="RIPC_Login" duration-ms="10327" started-at="2017-03-24T17:55:25Z" finished-at="2017-03-24T17:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RIPC_Login -->
+        <test-method status="PASS" signature="open_CSA_Tab()[pri:1, instance:LiteRequest_CA_NA_TestCase.CreateRequest@2b552920]" name="open_CSA_Tab" duration-ms="4119" started-at="2017-03-24T17:55:36Z" finished-at="2017-03-24T17:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_CSA_Tab -->
+        <test-method status="PASS" signature="Skill_Request1()[pri:2, instance:LiteRequest_CA_NA_TestCase.CreateRequest@2b552920]" name="Skill_Request1" duration-ms="2574" started-at="2017-03-24T17:55:40Z" finished-at="2017-03-24T17:55:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Skill_Request1 -->
+        <test-method status="PASS" signature="Select_Requester1()[pri:3, instance:LiteRequest_CA_NA_TestCase.CreateRequest@2b552920]" name="Select_Requester1" duration-ms="8580" started-at="2017-03-24T17:55:42Z" finished-at="2017-03-24T17:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_Requester1 -->
+        <test-method status="PASS" signature="JRSS_Select()[pri:4, instance:LiteRequest_CA_NA_TestCase.CreateRequest@2b552920]" name="JRSS_Select" duration-ms="5257" started-at="2017-03-24T17:55:51Z" finished-at="2017-03-24T17:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JRSS_Select -->
+        <test-method status="PASS" signature="Req_detail()[pri:5, instance:LiteRequest_CA_NA_TestCase.CreateRequest@2b552920]" name="Req_detail" duration-ms="9875" started-at="2017-03-24T17:55:56Z" finished-at="2017-03-24T17:56:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Req_detail -->
+        <test-method status="PASS" signature="Skill_detailLoc()[pri:6, instance:LiteRequest_CA_NA_TestCase.CreateRequest@2b552920]" name="Skill_detailLoc" duration-ms="12449" started-at="2017-03-24T17:56:06Z" finished-at="2017-03-24T17:56:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Skill_detailLoc -->
+        <test-method status="PASS" signature="Skill_detailsklprc()[pri:7, instance:LiteRequest_CA_NA_TestCase.CreateRequest@2b552920]" name="Skill_detailsklprc" duration-ms="18969" started-at="2017-03-24T17:56:18Z" finished-at="2017-03-24T17:56:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Skill_detailsklprc -->
+        <test-method status="PASS" signature="Supp_select()[pri:8, instance:LiteRequest_CA_NA_TestCase.CreateRequest@2b552920]" name="Supp_select" duration-ms="8644" started-at="2017-03-24T17:56:37Z" finished-at="2017-03-24T17:56:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Supp_select -->
+        <test-method status="PASS" signature="SkillSummary()[pri:9, instance:LiteRequest_CA_NA_TestCase.CreateRequest@2b552920]" name="SkillSummary" duration-ms="3401" started-at="2017-03-24T17:56:46Z" finished-at="2017-03-24T17:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SkillSummary -->
+        <test-method status="PASS" signature="ReqSummary()[pri:10, instance:LiteRequest_CA_NA_TestCase.CreateRequest@2b552920]" name="ReqSummary" duration-ms="2496" started-at="2017-03-24T17:56:49Z" finished-at="2017-03-24T17:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReqSummary -->
+        <test-method status="PASS" signature="submitconfirmed()[pri:11, instance:LiteRequest_CA_NA_TestCase.CreateRequest@2b552920]" name="submitconfirmed" duration-ms="3495" started-at="2017-03-24T17:56:52Z" finished-at="2017-03-24T17:56:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[T&M-Review skill request (T22VQ8)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- submitconfirmed -->
+      </class> <!-- LiteRequest_CA_NA_TestCase.CreateRequest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
