@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+    <line>
+      <![CDATA[Technical Service skill request (S23CY7)]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1327786" started-at="2017-03-16T09:16:08Z" finished-at="2017-03-16T09:38:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1327786" started-at="2017-03-16T09:16:08Z" finished-at="2017-03-16T09:38:16Z">
+      <class name="mail_Validation_testcase.CreateRequest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:mail_Validation_testcase.CreateRequest@3701eaf6]" name="setup" is-config="true" duration-ms="27256" started-at="2017-03-16T14:46:08Z" finished-at="2017-03-16T14:46:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="RIPC_Login()[pri:0, instance:mail_Validation_testcase.CreateRequest@3701eaf6]" name="RIPC_Login" duration-ms="9097" started-at="2017-03-16T14:46:35Z" finished-at="2017-03-16T14:46:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RIPC_Login -->
+        <test-method status="PASS" signature="open_CSA_Tab()[pri:1, instance:mail_Validation_testcase.CreateRequest@3701eaf6]" name="open_CSA_Tab" duration-ms="2185" started-at="2017-03-16T14:46:44Z" finished-at="2017-03-16T14:46:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_CSA_Tab -->
+        <test-method status="PASS" signature="Skill_Request1()[pri:2, instance:mail_Validation_testcase.CreateRequest@3701eaf6]" name="Skill_Request1" duration-ms="1793" started-at="2017-03-16T14:46:47Z" finished-at="2017-03-16T14:46:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Skill_Request1 -->
+        <test-method status="PASS" signature="Select_Requester1()[pri:3, instance:mail_Validation_testcase.CreateRequest@3701eaf6]" name="Select_Requester1" duration-ms="9431" started-at="2017-03-16T14:46:48Z" finished-at="2017-03-16T14:46:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_Requester1 -->
+        <test-method status="PASS" signature="JRSS_Select()[pri:4, instance:mail_Validation_testcase.CreateRequest@3701eaf6]" name="JRSS_Select" duration-ms="5049" started-at="2017-03-16T14:46:58Z" finished-at="2017-03-16T14:47:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JRSS_Select -->
+        <test-method status="PASS" signature="Req_detail()[pri:5, instance:mail_Validation_testcase.CreateRequest@3701eaf6]" name="Req_detail" duration-ms="7342" started-at="2017-03-16T14:47:03Z" finished-at="2017-03-16T14:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Req_detail -->
+        <test-method status="PASS" signature="Skill_detailLoc()[pri:6, instance:mail_Validation_testcase.CreateRequest@3701eaf6]" name="Skill_detailLoc" duration-ms="17937" started-at="2017-03-16T14:47:10Z" finished-at="2017-03-16T14:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Skill_detailLoc -->
+        <test-method status="PASS" signature="Skill_detailsklprc()[pri:7, instance:mail_Validation_testcase.CreateRequest@3701eaf6]" name="Skill_detailsklprc" duration-ms="12021" started-at="2017-03-16T14:47:28Z" finished-at="2017-03-16T14:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Skill_detailsklprc -->
+        <test-method status="PASS" signature="Supp_select()[pri:8, instance:mail_Validation_testcase.CreateRequest@3701eaf6]" name="Supp_select" duration-ms="8086" started-at="2017-03-16T14:47:40Z" finished-at="2017-03-16T14:47:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Supp_select -->
+        <test-method status="PASS" signature="SkillSummary()[pri:9, instance:mail_Validation_testcase.CreateRequest@3701eaf6]" name="SkillSummary" duration-ms="2727" started-at="2017-03-16T14:47:48Z" finished-at="2017-03-16T14:47:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SkillSummary -->
+        <test-method status="PASS" signature="ReqSummary()[pri:10, instance:mail_Validation_testcase.CreateRequest@3701eaf6]" name="ReqSummary" duration-ms="1652" started-at="2017-03-16T14:47:51Z" finished-at="2017-03-16T14:47:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReqSummary -->
+        <test-method status="PASS" signature="submitconfirmed()[pri:11, instance:mail_Validation_testcase.CreateRequest@3701eaf6]" name="submitconfirmed" duration-ms="302" started-at="2017-03-16T14:47:53Z" finished-at="2017-03-16T14:47:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Technical Service skill request (S23CY7)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- submitconfirmed -->
+        <test-method status="PASS" signature="Supp_Login1()[pri:12, instance:mail_Validation_testcase.CreateRequest@3701eaf6]" name="Supp_Login1" duration-ms="1222855" started-at="2017-03-16T14:47:53Z" finished-at="2017-03-16T15:08:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Supp_Login1 -->
+      </class> <!-- mail_Validation_testcase.CreateRequest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="mail_Validation_testcase.CreateRequest">
+        <methods>
+          <include name="Skill_detailsklprc"/>
+          <include name="Skill_detailLoc"/>
+          <include name="submitconfirmed"/>
+          <include name="ReqSummary"/>
+          <include name="Supp_select"/>
+          <include name="Skill_Request1"/>
+          <include name="SkillSummary"/>
+          <include name="Req_detail"/>
+          <include name="setup"/>
+          <include name="Select_Requester1"/>
+          <include name="JRSS_Select"/>
+          <include name="open_CSA_Tab"/>
+          <include name="Supp_Login1"/>
+        </methods>
+      </class> <!-- mail_Validation_testcase.CreateRequest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
